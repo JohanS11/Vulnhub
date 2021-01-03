@@ -1,0 +1,1 @@
+# Nmap 7.80 scan initiated Sat Jan  2 21:50:41 2021 as: nmap -sS -sC -sV -T5 -p22,80 -vvv -oA nmap/AllPorts 192.168.0.16

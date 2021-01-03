@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Sat Jan  2 21:50:41 2021 as: nmap -sS -sC -sV -T5 -p22,80 -vvv -oA nmap/AllPorts 192.168.0.16 -->
+<nmaprun scanner="nmap" args="nmap -sS -sC -sV -T5 -p22,80 -vvv -oA nmap/AllPorts 192.168.0.16" start="1609642241" startstr="Sat Jan  2 21:50:41 2021" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1609642242"/>
+<taskend task="NSE" time="1609642242"/>
+<taskbegin task="NSE" time="1609642242"/>
+<taskend task="NSE" time="1609642242"/>
+<taskbegin task="NSE" time="1609642242"/>
+<taskend task="NSE" time="1609642242"/>
+<taskbegin task="ARP Ping Scan" time="1609642242"/>
+<taskend task="ARP Ping Scan" time="1609642242" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1609642242"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1609642242"/>
+<taskbegin task="SYN Stealth Scan" time="1609642242"/>
+<taskend task="SYN Stealth Scan" time="1609642242" extrainfo="2 total ports"/>
+<taskbegin task="Service scan" time="1609642242"/>

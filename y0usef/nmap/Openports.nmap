@@ -1,0 +1,27 @@
+# Nmap 7.80 scan initiated Sat Jan  2 21:50:49 2021 as: nmap -sS -sC -sV -T5 -p22,80 -vvv -oA nmap/Openports 192.168.0.16
+Nmap scan report for 192.168.0.16
+Host is up, received arp-response (0.00039s latency).
+Scanned at 2021-01-02 21:50:49 -05 for 7s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 64 OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 d8:e0:99:8c:76:f1:86:a3:ce:09:c8:19:a4:1d:c7:e1 (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBAMz0EIQbXnFjhwcUPhkAKoei8vkeeOxMJtSpyouLLa9Oj/Ef21laXvRGWDWLKb8jc6d0h2BONMIKGCMrd9J+Js4lSDeHFGOLzpUzaX7NInNNQmvnlqOKiEBdxcvaETNIzjE/8KkZ/Szsc1KDymk2Aflic8j/p21bHygRrMvwKt7VAAAAFQD0qScKxCSG8wEI0QfXtw9lmu220wAAAIEAhyfMWnoz0x2SFqs+vP9UvwAwJLnv30ttJ3hmsvZz05lro0AROqB7rDf5/C24VhcZHDa6V7mRbuMjWra+OdpSte3AqNSo3/T1Mu1KKH3a1HkmCARg9a0HP0CM5fz4Liq+klK3tyu5iPa5xU71INBkedq0O5jJh4SH8wjT+Bt8Mn4AAACAbne62asZcSdYGhJwT7A6pPLlJwh3OddvUGXapt6Nb9oNnK6LLo98bXKFkb4ZcbrE89t9AE0uw9ReoZgGB0/SzLt+O02P3Wk3nuHmoZqoBONVIhIPsPX83RoJHHZvv0zgh//2J60rojUwkGqCpaj3Z5GquxsgEX7blz2CrE0NBFc=
+|   2048 82:b0:20:bc:04:ea:3f:c2:cf:73:c3:d4:fa:b5:4b:47 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEVCDq0YQD6se02fjbvSkNq52KYNqR41J1z62oQBy6Y6UAGbUkQf0hsQRhMtX32W6lLkk6Uix4iK0Y4tGj2daQtUzH8CGT9ad9WpMHv7gmBCh5RN96txkr2CjnIbQRI9k2LAewbtEfLh47oeWEQ5CvtAeAEqlSdVQ5+dHh2cYe5utMQuPuRzuH9sx60+AT5Narwlt1k85WKg/U/cnDt4NXxuox59E2XR1hnPuxXzqEIIMTRQI/S7i8DesbOkYRZrIJt6K8PvyW56dlHPTv+6QRgaqqfXmVeDmPhYL6tcgf1QmiT4/qCyUFUgSMjA9uQGbMJ/TMbVXkfuZsBcamO9p/
+|   256 03:4d:b0:70:4d:cf:5a:4a:87:c3:a5:ee:84:cc:aa:cc (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCmdcq7adrCZddolRfs7wwmD8Dp+lCPCEguoTWqsW8RokH942KDFGWuY3DmbaujF24XPcZ3jrbSucYi6qYvVQT4=
+|   256 64:cd:d0:af:6e:0d:20:13:01:96:3b:8d:16:3a:d6:1b (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICdQOPO/7pOuWETV6Pu59wiu0RMc/GEECB+w3bW5IBmf
+80/tcp open  http    syn-ack ttl 64 Apache httpd 2.4.10 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.10 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+MAC Address: 08:00:27:5A:77:CA (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan  2 21:50:56 2021 -- 1 IP address (1 host up) scanned in 6.92 seconds

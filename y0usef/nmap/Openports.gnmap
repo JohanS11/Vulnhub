@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Sat Jan  2 21:50:49 2021 as: nmap -sS -sC -sV -T5 -p22,80 -vvv -oA nmap/Openports 192.168.0.16
+# Ports scanned: TCP(2;22,80) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.0.16 ()	Status: Up
+Host: 192.168.0.16 ()	Ports: 22/open/tcp//ssh//OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.10 ((Ubuntu))/
+# Nmap done at Sat Jan  2 21:50:56 2021 -- 1 IP address (1 host up) scanned in 6.92 seconds
